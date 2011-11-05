@@ -1,1 +1,1 @@
-Read the source for main.py for more information about this application. There is also a pycco-generated annotation of the source in docs/main.html.
+This is an extremely simple example of how to use the new Sandbox APIs to access premium assets through The Echo Nest. Run main.py locally to try it out, and read the source for main.py to learn more.
