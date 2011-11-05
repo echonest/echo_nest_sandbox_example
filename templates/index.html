@@ -1,0 +1,16 @@
+$def with (listing)
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/static/style.css" />
+    </head>
+    <body>
+        <div class="middle-panel">
+            <h1>The Echo Nest Sandbox Example</h1>
+            <ul>
+            $for item in listing:
+                <li><a href="/play/$(item['id'])">$item['id']</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
