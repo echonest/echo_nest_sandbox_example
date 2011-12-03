@@ -33,7 +33,7 @@ urls = (
 )
 render = web.template.render('templates')
 app = web.application(urls, globals())
-sandbox_name = 'emi_bluenote'
+sandbox_name = 'emi_japanese_popstars'
 
 class index:        
     def GET(self):
